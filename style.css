@@ -1,0 +1,103 @@
+html,
+
+body{
+    height: 100%;
+}
+
+header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(img/%E3%82%B9%E3%83%97%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E8%83%8C%E6%99%AF1.jpg);
+}
+
+section{
+    text-align: center;
+    word-break: keep-all;
+}
+
+h1{
+    font-size: 80px;
+    color: #00ff7f;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+h2{
+    padding-top: 0px;
+    font-size: 40px;
+    font-family: "Noto Sans JP";
+    text-align: center;
+    color: #40ed00;
+}
+
+nav{
+    
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+p1{
+    font-size: 18px;
+}
+
+p2{
+    font-size: 20px;
+}
+
+p3{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Noto Sans JP";
+    padding-bottom: 0px;
+}
+
+.back1{
+    background-color: azure;
+    background-position: center;
+}
+
+.space{
+    padding-bottom: 100px;
+}
+
+.discord{
+    padding-top: 170px;
+    background-image: url(img/Discord-Logo-Color.png);
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position: center;
+}
+
+.btn,a.btn,button.btn{
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Homemade Apple', cursive;
+    position: relative;
+    padding: 0.1rem 2rem;
+}
+
+.btn--blue,a.btn--blue{
+    color: #fff;
+    background-color: #00ced1;
+}
+
+.btn--blue:hover,a.btn--blue:hover{
+    color: #fff;
+    background: #40e0d0;
+}
+
+a.btn--radius{
+    border-radius: 100vh;
+}
